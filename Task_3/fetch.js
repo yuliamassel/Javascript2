@@ -11,7 +11,7 @@ const inputFetch = (link,options)=>{
     })
 }
 
-inputFetch('https://jsonplaceholder.typicode.com/users')
+inputFetch('https://jsonplaceholder.typicode.com/user')
     .then((res) => res.map((item,index)=>{
         console.log(`${index+1} ${item.name}`)
     }))

@@ -12,7 +12,7 @@ finalResult = (value,index)=> {
 
 const getMonth = (callback) => {
     setTimeout(()=>{
-        let error = false
+        let error = true
         let month = ['January','February','March','April','Mey','June','July','August',
                     'September','October','November','Desember']
         if (!error) {
